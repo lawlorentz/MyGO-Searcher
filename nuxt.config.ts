@@ -2,6 +2,7 @@ import removeConsole from 'vite-plugin-remove-console';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	
 	app: {
 		head: {
 			link: [{ rel: 'icon', type: 'image/svg+xml', href: '/mygo.svg' }],
@@ -88,7 +89,8 @@ export default defineNuxtConfig({
 
 	runtimeConfig: {
 		public: {
-			API_BASE_URL: process.env.API_BASE_URL || 'default_value',
+			// API_BASE_URL: process.env.API_BASE_URL || 'default_value',
+			API_BASE_URL: '/api/mygo'
 		}
 	},
 	compatibilityDate: '2024-10-27',
