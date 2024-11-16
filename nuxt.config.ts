@@ -90,7 +90,8 @@ export default defineNuxtConfig({
 	runtimeConfig: {
 		public: {
 			// API_BASE_URL: process.env.API_BASE_URL || 'default_value',
-			API_BASE_URL: '/api/mygo'
+			API_BASE_URL: '/api/mygo',
+			BACKEND_API_URL: 'http://leian.natapp1.cc/search_image'
 		}
 	},
 	compatibilityDate: '2024-10-27',

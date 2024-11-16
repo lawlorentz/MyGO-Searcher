@@ -1,6 +1,6 @@
 export const getAllImageList = async (query: string, config: any) => {
 	let API_BASE_URL = config.public.API_BASE_URL;
-	let BACKEND_API_URL = 'http://leian.natapp1.cc/search_image';
+	let BACKEND_API_URL = config.public.BACKEND_API_URL;
 	let url = '';
 	try {
 		if (query) {
