@@ -7,7 +7,7 @@
 
 ## 对原项目的修改
 
-- 重写检索部分，增加了模糊查询功能，使用[BAAI/bge-small-zh-v1.5](https://github.com/FlagOpen/FlagEmbedding)进行密集检索
+- 重写检索部分(backend文件夹)，增加了模糊查询功能，使用[BAAI/bge-small-zh-v1.5](https://github.com/FlagOpen/FlagEmbedding)进行密集检索 
 
 
 ## 部署指南
