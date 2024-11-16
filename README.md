@@ -25,6 +25,7 @@ echo "API_BASE_URL=<API_BASE_URL>" >> .env.development
 ```
 4. 启动模糊检索服务
 ```
+cd backend
 python retrieve.py
 python backend.py
 ```
