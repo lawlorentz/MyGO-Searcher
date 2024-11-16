@@ -30,6 +30,7 @@ python backend.py
 ```
 修改nuxt.config.ts中的BACKEND_API_URL为backend.py运行的地址。
 （没有GPU的朋友可能需要自行修改代码）
+
 5. 启动及部署Nuxt
 
 ```bash
